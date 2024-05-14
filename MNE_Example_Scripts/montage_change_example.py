@@ -15,7 +15,7 @@ raw.pick([f"EEG 0{n:02}" for n in range(41, 60)])
 raw_changed = raw.copy()
 
 # Load a standard montage (no 10-20 montage is available in NME that I can find)
-montage = mne.channels.make_standard_montage('standard_1005')
+montage = mne.channels.make_standard_montage('standard_1020')
 
 # Rename the EEG channels to standard 10-20 system name
 channel_mapping = {
