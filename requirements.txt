@@ -1,0 +1,28 @@
+Python version 3.8.10 (or newer) : 'sudo apt install python3'
+MNE version : https://mne.tools/stable/install/manual_install.html#manual-install
+    'pip install nme'
+    Prequisites: (Run 'version.py' to see your current versions of these libraries)
+        matplotlib: 3.7.5 : 'pip install matplotlib==3.7.5'
+        numpy: 1.24.3 : 'pip install numpy==1.24.3'
+        tensorflow: 2.13.1 : 'pip install tensorflow==2.13.1'
+
+    For sample datasets: (used to run scripts in '/MNE_Example_Scripts')
+        scikit-learn: 'pip install -U scikit-learn'
+
+OpenNeuro CLI veresion 4.23.0 : https://www.npmjs.com/package/@openneuro/cli 
+    'npm install -g @openneuro/cli'
+    ** Ensure you have an OpenNeuro Account **
+        1) Once logged in goto 'https://openneuro.org/keygen'
+        2) 'openneuro login'
+        3) Copy key into cli and enter
+        4) Download your desired openneuro dataset via the download command provided in the 'download' tab on the dataset page:
+            Ex: 'openneuro download --snapshot 2.1.2 ds003626 ds003626-download/' for https://openneuro.org/datasets/ds003626/versions/2.1.2
+            ** Note: This will download to your current directory **
+    Prequisites:
+        nvm (Node Version Manager) version 0.39.7 : 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash'
+            **RESTART TERMINAL**
+            'nvm --version' to ensure installation
+        node.js version v20.13.1 : 'nvm install 20'
+        nmp version 10.5.2 : 'sudo apt install npm'
+
+
