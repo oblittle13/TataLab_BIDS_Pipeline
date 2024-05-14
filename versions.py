@@ -3,6 +3,7 @@ import numpy
 import tensorflow
 import sys
 
+# Displaying versions
 print('python: {}'.format(sys.version))
 print('matplotlib: {}'.format(matplotlib.__version__))
 print('numpy: {}'.format(numpy.__version__))
